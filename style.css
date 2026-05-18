@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: white;
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.hero {
+    height: 60vh;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.45);
+    padding: 40px;
+    width: 50%;
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+
+.project-card img {
+    width: 300px;
+}
+
+.project-card h2 {
+    text-align: center;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+    background: black;
+}
+.project-page img {
+    max-width: 100%;
+    max-height: 80vh;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+.project-card img:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+.about-page {
+    min-height: 100vh;
+    padding-top: 180px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 80px;
+    background-color: black;
+    color: white;
+}
